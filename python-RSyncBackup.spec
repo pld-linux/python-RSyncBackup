@@ -1,6 +1,6 @@
 
 %include	/usr/lib/rpm/macros.python
-%define 	module RSyncBackup
+%define 	module	RSyncBackup
 
 Summary:	Python module for perform automatic backups using the rsync command
 Summary(pl):	Modu³ Pythona umo¿liwiaj±cy wykonywanie automatycznych archiwizacji przy pomocy komendy rsync
