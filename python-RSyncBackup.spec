@@ -41,7 +41,7 @@ Requires:	%{name} = %{version}-%{release}
 %description doc
 This package contains documentation files for RSyncBackup Python module.
 
-%description doc -l p
+%description doc -l pl
 Pakiet zawieraj±cy dokumentacjê dla modu³u Python RSyncBackup.
 
 %package examples
@@ -53,7 +53,7 @@ Requires:	%{name} = %{version}-%{release}
 %description examples
 This package contains example files for RSyncBackup Python module.
 
-%description examples -l p
+%description examples -l pl
 Pakiet zawieraj±cy przyk³adowe skrypty dla modu³u Python RSyncBackup.
 
 %prep
