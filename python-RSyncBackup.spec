@@ -11,7 +11,7 @@ Group:		Libraries/Python
 Source0:	http://www.owlfish.com/software/utils/RSyncBackup/downloads/%{module}-%{version}.tar.gz
 # Source0-md5:	a929fa15adcd6847f137599127c84280
 URL:		http://www.owlfish.com/software/utils/RSyncBackup/
-BuildRequires:	python-devel >= 2.3
+BuildRequires:	python-devel >= 1:2.3
 Requires:	python >= 2.3
 Requires:	rsync
 BuildArch:	noarch
