@@ -15,6 +15,7 @@ URL:		http://www.owlfish.com/software/utils/RSyncBackup/
 BuildRequires:	python-devel >= 2.3
 Requires:	python >= 2.3
 Requires:	rsync
+BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
