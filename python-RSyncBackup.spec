@@ -35,7 +35,7 @@ na lokalnej maszynie miêdzy ró¿nymi dyskami.
 %package doc
 Summary:	Documentation for RSyncBackup module
 Summary(pl):	Dokumentacja do modu³u RSyncBackup
-Group:		Python/Libraries
+Group:		Libraries/Python
 Requires:	%{name} = %{version}-%{release}
 
 %description doc
@@ -47,7 +47,7 @@ Pakiet zawieraj±cy dokumentacjê dla modu³u Python RSyncBackup.
 %package examples
 Summary:	Examples for RSyncBackup module
 Summary(pl):	Przyk³ady do modu³u RSyncBackup
-Group:		Python/Libraries
+Group:		Libraries/Python
 Requires:	%{name} = %{version}-%{release}
 
 %description examples
