@@ -2,7 +2,7 @@
 %define 	module	RSyncBackup
 
 Summary:	Python module for perform automatic backups using the rsync command
-Summary(pl):	Modu³ Pythona umo¿liwiaj±cy wykonywanie automatycznych archiwizacji przy pomocy komendy rsync
+Summary(pl.UTF-8):   ModuÅ‚ Pythona umoÅ¼liwiajÄ…cy wykonywanie automatycznych archiwizacji przy pomocy komendy rsync
 Name:		python-%{module}
 Version:	1.3
 Release:	1
@@ -25,36 +25,36 @@ suitable for performng backups from one form of online storage to
 another, either over a network or on a local machine with multiple
 drives.
 
-%description -l pl
-RSyncBackup jest modu³em Pythona pozwalaj±cym na wykonywanie
+%description -l pl.UTF-8
+RSyncBackup jest moduÅ‚em Pythona pozwalajÄ…cym na wykonywanie
 automatycznych archiwizacji. rsync posiada wprawdzie wiele innych
-mo¿liwo¶ci, ale szczególnie u¿yteczny jest do przeprowadzania
-archiwizacji miêdzy wieloma urz±dzeniami, zarówno poprzez sieæ jak i
-na lokalnej maszynie miêdzy ró¿nymi dyskami.
+moÅ¼liwoÅ›ci, ale szczegÃ³lnie uÅ¼yteczny jest do przeprowadzania
+archiwizacji miÄ™dzy wieloma urzÄ…dzeniami, zarÃ³wno poprzez sieÄ‡ jak i
+na lokalnej maszynie miÄ™dzy rÃ³Å¼nymi dyskami.
 
 %package doc
 Summary:	Documentation for RSyncBackup module
-Summary(pl):	Dokumentacja do modu³u RSyncBackup
+Summary(pl.UTF-8):   Dokumentacja do moduÅ‚u RSyncBackup
 Group:		Libraries/Python
 Requires:	%{name} = %{version}-%{release}
 
 %description doc
 This package contains documentation files for RSyncBackup Python module.
 
-%description doc -l pl
-Pakiet zawieraj±cy dokumentacjê dla modu³u Pythona RSyncBackup.
+%description doc -l pl.UTF-8
+Pakiet zawierajÄ…cy dokumentacjÄ™ dla moduÅ‚u Pythona RSyncBackup.
 
 %package examples
 Summary:	Examples for RSyncBackup module
-Summary(pl):	Przyk³ady do modu³u RSyncBackup
+Summary(pl.UTF-8):   PrzykÅ‚ady do moduÅ‚u RSyncBackup
 Group:		Libraries/Python
 Requires:	%{name} = %{version}-%{release}
 
 %description examples
 This package contains example files for RSyncBackup Python module.
 
-%description examples -l pl
-Pakiet zawieraj±cy przyk³adowe skrypty dla modu³u Pythona RSyncBackup.
+%description examples -l pl.UTF-8
+Pakiet zawierajÄ…cy przykÅ‚adowe skrypty dla moduÅ‚u Pythona RSyncBackup.
 
 %prep
 %setup -q -n %{module}-%{version}
