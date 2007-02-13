@@ -2,7 +2,7 @@
 %define 	module	RSyncBackup
 
 Summary:	Python module for perform automatic backups using the rsync command
-Summary(pl.UTF-8):   Moduł Pythona umożliwiający wykonywanie automatycznych archiwizacji przy pomocy komendy rsync
+Summary(pl.UTF-8):	Moduł Pythona umożliwiający wykonywanie automatycznych archiwizacji przy pomocy komendy rsync
 Name:		python-%{module}
 Version:	1.3
 Release:	1
@@ -34,7 +34,7 @@ na lokalnej maszynie między różnymi dyskami.
 
 %package doc
 Summary:	Documentation for RSyncBackup module
-Summary(pl.UTF-8):   Dokumentacja do modułu RSyncBackup
+Summary(pl.UTF-8):	Dokumentacja do modułu RSyncBackup
 Group:		Libraries/Python
 Requires:	%{name} = %{version}-%{release}
 
@@ -46,7 +46,7 @@ Pakiet zawierający dokumentację dla modułu Pythona RSyncBackup.
 
 %package examples
 Summary:	Examples for RSyncBackup module
-Summary(pl.UTF-8):   Przykłady do modułu RSyncBackup
+Summary(pl.UTF-8):	Przykłady do modułu RSyncBackup
 Group:		Libraries/Python
 Requires:	%{name} = %{version}-%{release}
 
