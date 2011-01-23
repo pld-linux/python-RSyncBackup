@@ -13,6 +13,7 @@ Source0:	http://www.owlfish.com/software/utils/RSyncBackup/downloads/%{module}-%
 URL:		http://www.owlfish.com/software/utils/RSyncBackup/
 BuildRequires:	python-devel >= 1:2.3
 BuildRequires:	python-modules
+BuildRequires:	rpm-pythonprov
 Requires:	python >= 2.3
 Requires:	rsync
 BuildArch:	noarch
@@ -39,7 +40,8 @@ Group:		Libraries/Python
 Requires:	%{name} = %{version}-%{release}
 
 %description doc
-This package contains documentation files for RSyncBackup Python module.
+This package contains documentation files for RSyncBackup Python
+module.
 
 %description doc -l pl.UTF-8
 Pakiet zawierający dokumentację dla modułu Pythona RSyncBackup.
