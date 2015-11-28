@@ -5,7 +5,7 @@ Summary:	Python module for perform automatic backups using the rsync command
 Summary(pl.UTF-8):	Moduł Pythona umożliwiający wykonywanie automatycznych archiwizacji przy pomocy komendy rsync
 Name:		python-%{module}
 Version:	1.3
-Release:	3
+Release:	4
 License:	BSD-like
 Group:		Libraries/Python
 Source0:	http://www.owlfish.com/software/utils/RSyncBackup/downloads/%{module}-%{version}.tar.gz
