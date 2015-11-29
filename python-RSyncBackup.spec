@@ -11,6 +11,7 @@ Group:		Libraries/Python
 Source0:	http://www.owlfish.com/software/utils/RSyncBackup/downloads/%{module}-%{version}.tar.gz
 # Source0-md5:	b9fbf6a37b8634884dea330770948ac9
 URL:		http://www.owlfish.com/software/utils/RSyncBackup/
+BuildRequires:	rpmbuild(macros) >= 1.710
 BuildRequires:	python-devel >= 1:2.3
 BuildRequires:	python-modules
 BuildRequires:	rpm-pythonprov
